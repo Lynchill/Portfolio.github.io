@@ -1,0 +1,178 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+  <title>Lynch - Homepage</title>
+</head>
+
+<body class="bg-dark">
+  <!--nav section start-->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark text-light sticky-top">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Portfolio</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent"
+        aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarSupportedContent">
+        <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="/">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="/about">About</a>
+          </li>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-expanded="false">
+              Others
+            </a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <li><a class="dropdown-item" href="/contact">Contact</a></li>
+              <li><a class="dropdown-item" href="/gallery">Gallery</a></li>
+              <li>
+                <hr class="dropdown-divider">
+              </li>
+              <li><a class="dropdown-item" href="/sosmed">Sosmed</a></li>
+            </ul>
+          </li>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+          <button class="btn btn-outline-light" type="submit">Search</button>
+        </form>
+      </div>
+    </div>
+  </nav>
+  <!--nav section end-->
+
+  <!--first layout start-->
+  <div class="container-fluid text-light" style="height: 100vh">
+    <!--Carousel Start-->
+
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+          aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+          aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+          aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3"
+          aria-label="Slide 4"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="assets/_MG_9404.jpg" class="d-block w-100" alt="9D Photo's"
+            style="height: 500px; object-fit: cover; object-position: center;">
+          <div class="carousel-caption">
+            <h5>9D Photo Class</h5>
+            <p>All of the member of 9D taking Photo together.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/IMG-20220519-WA0097.jpg" class="d-block w-100" alt="Photo with Alex"
+            style="height: 500px; object-fit: cover; object-position:center 75%;">
+          <div class="carousel-caption">
+            <h5>Sabung Ayam Photo</h5>
+            <p>Not all the member is in the Photo, all member wearing the best outfit.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/IMG-20220519-WA0117.jpg" class="d-block w-100" alt="Photo Sabung Ayam Club"
+            style="height: 500px; object-fit: cover; object-position: center 30%;">
+          <div class="carousel-caption">
+            <h5>Photo with Alex</h5>
+            <p>Best Bro that i had, this guy always be my first friend.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="assets/IMG_5460.jpg" class="d-block w-100" alt="Foto Bareng Querina"
+            style="height: 500px; object-fit: cover; object-position: center 57%;">
+          <div class="carousel-caption">
+            <h5>Photo with Irin</h5>
+            <p>Kindest girl that i ever meet, a High Value Women, i'll go marry this women after i became High Value Man
+            </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+        data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+
+    <!--Carousel End-->
+    <div class="row text-center align-items-center bg-dark mt-4">
+      <!-- col dari konten 1 dan konten 2 jika dijumlah harus 12-->
+      <div class="col-12">
+        <img src="assets/me.png" class="rounded-circle" alt="My Image" width="150" height="150">
+        <h2 class="mt-2">Tadeus Thenaris Portfolio</h2>
+        <i>Hello, Welcome to <span style="color:lightblue">My Portfolio</span></i>
+      </div>
+    </div>
+
+    <!--card start-->
+    <div class="row text-dark mt-4">
+      <div class="col-sm-3 g-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">9D Photo Class</h5>
+            <p class="card-text">Kelas 9D adalah kelas terbaik yang pernah aku tempati, semua temanku ramah dan punya
+              chemistry yang baik.</p>
+            <a href="#" class="btn btn-dark d-block">Penjelasan Lebih Lanjut</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 g-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Sabung Ayam Photo</h5>
+            <p class="card-text">Sabung Ayam Club itu teman-teman terbaikku, ada Alex, Anton, Delon, Gres, Kevin,
+              Cilen, Rahel, Karen, dan Tadeus (itu saya :V).</p>
+            <a href="#" class="btn btn-dark d-block">Penjelasan Lebih Lanjut</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 g-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Photo with Alex</h5>
+            <p class="card-text">Sahabatku yang paling dekat namanya Alex, dia sekarang sekolah di Batam, sering marahan
+              tapi akhirnya damai 😏.</p>
+            <a href="#" class="btn btn-dark d-block">Penjelasan Lebih Lanjut</a>
+          </div>
+        </div>
+      </div>
+      <div class="col-sm-3 g-4">
+        <div class="card">
+          <div class="card-body">
+            <h5 class="card-title text-center">Photo with Irin</h5>
+            <p class="card-text">Foto bareng teman pertama sejak SD, Irin orangnya pendiam, rendah hati, rajin, dan
+              unik, hobinya hampir sama kaya saya.</p>
+            <a href="#" class="btn btn-dark d-block">Penjelasan Lebih Lanjut</a>
+          </div>
+        </div>
+      </div>
+      <!--card end-->
+    </div>
+    <!--first layout end-->
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+      crossorigin="anonymous"></script>
+  </div>
+</body>
+
+</html>
